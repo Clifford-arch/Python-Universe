@@ -1,4 +1,4 @@
-"""Sorting the colors """
+"""Sorting the colors (Dutch National Flag problem) in one pass and inplace """
 def sort_colors(array):
     low=0
     mid=0
