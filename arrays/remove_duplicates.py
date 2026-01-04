@@ -7,7 +7,9 @@ def remove_duplicates(array):
         if array[i]!=array[i-1]:
             array[write]=array[i]
             write+=1
-    return array[:write],write
-print(remove_duplicates([1,1,2,2,3,4,4]))
-        
+    return write,array[:write]
+# print(remove_duplicates([1,1,2,2,3,4,4]))
+k,arr=remove_duplicates([1,1,2,2,3,4,4])
+print(k)
+print(arr)        
         
